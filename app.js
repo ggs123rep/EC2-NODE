@@ -62,4 +62,4 @@ io.on("connection", (socket) => {
 // serve on port
 const PORT = process.env.PORT || 4000;
 
-server.listen(80);
+server.listen(8080);
