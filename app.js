@@ -60,6 +60,8 @@ io.on("connection", (socket) => {
 });
 
 // serve on port
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 80;
 
-server.listen(8080);
+server.listen(PORT, () =>
+  console.log(`server is listening on http://localhost:${PORT}`)
+);;
