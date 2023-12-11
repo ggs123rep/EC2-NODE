@@ -63,5 +63,5 @@ io.on("connection", (socket) => {
 const PORT = process.env.PORT || 4000;
 
 server.listen(80, () =>
-  console.log(`server is listening on http://localhost:${PORT}`)
+  console.log(`server is listening on http://localhost:${8080}`)
 );
